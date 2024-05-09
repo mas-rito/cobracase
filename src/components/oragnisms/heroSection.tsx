@@ -7,7 +7,7 @@ import { Phone } from "../molecules/phone"
 
 const FirstGridn = () => {
   return (
-    <div className="col-span-2 lg:pt-4">
+    <div className="col-span-2">
       <div className="relative mx-auto flex flex-col items-center text-center lg:items-start lg:text-left">
         <div className="absolute left-0 top-0 block w-20 md:w-28 lg:-top-20">
           <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-slate-50 via-slate-50/50" />
@@ -19,7 +19,7 @@ const FirstGridn = () => {
             className="w-full"
           />
         </div>
-        <h1 className="relative mt-16 w-fit text-balance text-5xl font-bold !leading-tight tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
+        <h1 className="relative mt-8 w-fit text-balance text-5xl font-bold !leading-tight tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
           Your Image on a{" "}
           <span className="bg-green-600 px-2 text-white">Custom</span> Phone
           Case
@@ -80,7 +80,7 @@ const FirstGridn = () => {
 
 const SecondGridn = () => {
   return (
-    <div className="col-span-full mt-32 flex h-fit w-full justify-center px-8 sm:px-16 md:px-0 lg:col-span-1 lg:mx-0 lg:mt-20">
+    <div className="col-span-full mt-32 flex h-fit w-full justify-center px-8 sm:px-16 md:px-0 lg:col-span-1 lg:mx-0 lg:mt-8">
       <div className="relative md:max-w-xl">
         <Image
           alt="Your image"
@@ -107,7 +107,7 @@ const SecondGridn = () => {
 
 export const HeroSection = () => {
   return (
-    <section className="pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-3 lg:gap-x-0 lg:pb-52 lg:pt-24 xl:gap-x-8 xl:pt-32">
+    <section className="pb-24 pt-6 sm:pb-32 lg:grid lg:grid-cols-3 lg:gap-x-0 lg:pb-52 lg:pt-24 xl:gap-x-8">
       <FirstGridn />
       <SecondGridn />
     </section>

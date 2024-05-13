@@ -20,3 +20,21 @@ export const PHONES = [
   "https://images.pexels.com/photos/532310/pexels-photo-532310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "https://images.pexels.com/photos/1448055/pexels-photo-1448055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ]
+
+export const STEPS = [
+  {
+    name: "Step 1: Add image",
+    description: "Choose an image for your case",
+    url: "/upload",
+  },
+  {
+    name: "Step 2: Customize design",
+    description: "Make the case yours",
+    url: "/design",
+  },
+  {
+    name: "Step 3: Summary",
+    description: "Review your final design",
+    url: "/preview",
+  },
+]
